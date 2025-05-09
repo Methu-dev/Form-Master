@@ -8,6 +8,7 @@ const RefForm = () => {
     useEffect(()=>{
         RrfName.current.focus()
     },[])
+    
     const handleSubmit = e =>{
         e.preventDefault()
         console.log(RrfName.current.value);
